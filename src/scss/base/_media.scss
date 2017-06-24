@@ -1,0 +1,199 @@
+@media screen and (max-width: 1024px) {
+    header {
+        .top-header {
+            .main-menu {
+                display: none;
+            }
+            .search {
+                margin-right: 40px;
+            }
+        }
+    }
+    .menu-btn {
+        position: absolute;
+        top: 22px;
+        right: 10px;
+    }
+}
+
+@media screen and (min-width: 1025px) {
+    .menu-btn {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 950px) {
+    header {
+        .slider {
+            .slick-next, .slick-prev {
+                width: 30px;
+                height: 30px;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 880px) {
+    header {
+        .slider {
+            .slider-caption {
+                .slider-caption__heading {
+                    font-size: 40px;
+                    padding-bottom: 20px;
+                }
+                .slider-caption__desc {
+                    font-size: 14px;
+                }
+            }
+            .slick-dots {
+                bottom: 10px;
+            }
+        }
+    }
+    .products-single {
+        width: 50%;
+        margin-bottom: 30px;
+    }
+    .products-single:nth-child(1) {
+        margin-bottom: 0;
+    }
+    footer.footer {
+        padding-top: 20px;
+    }
+}
+
+@media screen and (max-width: 856px) {
+    footer.footer {
+        .contact-block {
+            position: relative;
+            background: #000;
+            padding: 20px 15px;
+        }
+        .contact__map {
+            -webkit-filter: brightness(1);
+            filter: brightness(1);
+            iframe {
+                height: 250px;
+            }
+        }
+        .contact-info {
+            display: block;
+            padding: 30px 0 0;
+            text-align: center;
+            max-width: none;
+            font-size: 14px;
+        }
+        .contact-form {
+            display: block;
+            max-width: 490px;
+            padding-left: 0;
+            margin: 0 auto;
+        }
+    }
+}
+
+@media screen and (max-width: 630px) {
+    header {
+        .slider {
+            .slider-caption {
+                top: 30%;
+                .slider-caption__heading {
+                    font-size: 30px;
+                    padding-bottom: 20px;
+                }
+                .slider-caption__desc {
+                    font-size: 14px;
+                    padding: 0 45px;
+                }
+            }
+            .slider__img {
+                height: 450px;
+                width: auto;
+            }
+        }
+    }
+    .heading {
+        font-size: 30px;
+    }
+    .products-slider {
+        padding: 25px 15px;
+        margin-bottom: 0 !important;
+    }
+    .about-us {
+        padding: 30px 0;
+        flex-direction: column;
+        .about-us-ipad, .about-us-info {
+            width: 100%;
+        }
+        .about-us-info {
+            .about-us-info__subheading {
+                padding: 15px 0;
+            }
+            .about-us-info__desc {
+                padding-bottom: 20px;
+            }
+        }
+        .about-us-ipad {
+            order: -1;
+            text-align: center;
+            padding-bottom: 20px;
+            img {
+                max-height: 300px;
+                width: auto;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 570px) {
+    footer.footer {
+        .footer-bottom {
+            flex-direction: column;
+            align-items: center;
+            .footer-bottom__copyright {
+                padding-bottom: 20px;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .products-single {
+        text-align: center;
+        .products-single__img {
+            float: none;
+            margin: 0 auto;
+            width: 80%;
+            max-width: 145px;
+        }
+        .products-single__title {
+            font-size: 22px;
+            padding: 10px 0;
+        }
+        .products-single__desc {
+            padding-top: 5px;
+        }
+    }
+}
+
+@media screen and (max-width: 430px) {
+    footer.footer .contact-form form .contact-form__textinput, footer.footer .contact-form form .contact-form__dropdown {
+        width: 100%;
+        margin: 5px 0;
+    }
+    header {
+        .wrap {
+            flex-direction: column;
+            align-items: center;
+        }
+        .logo {
+            align-self: left;
+        }
+        .top-header {
+            .search {
+                margin-right: 0;
+                margin-top: 10px;
+            }
+        }
+    }
+}

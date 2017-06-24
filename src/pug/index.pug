@@ -1,0 +1,25 @@
+doctype html
+html
+    head(lang="ru")
+        include base/meta.pug
+        include base/styles.pug
+        title UpQode Test
+    body
+        nav.pushy.pushy-left
+            .pushy-content
+                ul
+                    li.pushy-link
+                        a(href="#") Home
+                    li.pushy-link
+                        a(href="#products") Products
+                    li.pushy-link
+                        a(href="#about-us") About
+                    li.pushy-link
+                        a(href="#contact") Contact
+        .site-overlay
+        .container
+            include parts/header.pug
+            include parts/products.pug
+            include parts/about-us.pug
+            include parts/footer.pug
+        include base/scripts.pug

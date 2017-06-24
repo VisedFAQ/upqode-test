@@ -1,0 +1,76 @@
+.about-us {
+    display: flex;
+
+    padding: 100px 0;
+    .about-us-info, .about-us-ipad {
+        width: 50%;
+        .about-us-info__heading_highlited {
+            color: $color-blue;
+        }
+        .about-us-info__subheading {
+            padding: 35px 0;
+
+            color: $color-lgrey;
+
+            font-weight: 100;
+        }
+        .about-us-info__desc {
+            padding-bottom: 70px;
+
+            color: $color-dgrey;
+        }
+    }
+    .about-us-ipad {
+        margin: auto 0;
+
+        text-align: right;
+        img {
+            width: 100%;
+            max-width: 345px;
+            padding-left: 15px;
+        }
+    }
+    .skill {
+        padding-bottom: 40px;
+    }
+    .skill-top {
+        display: flex;
+
+        padding-bottom: 15px;
+
+        text-transform: uppercase;
+
+        color: #444444;
+
+        font-size: 13px;
+        font-weight: bold;
+
+        justify-content: space-between;
+    }
+    .skill-box {
+        width: 99%;
+        padding: 2px;
+
+        border: 1px solid #ddd;
+    }
+    .skill-bar {
+        width: 1%;
+        height: 3px;
+
+        background: $color-blue;
+
+        @include transition(all 1.5s ease);
+    }
+    #photoshop.animated {
+        width: 79%;
+    }
+    #html.animated {
+        width: 90%;
+    }
+    #js.animated {
+        width: 69%;
+    }
+    #wp.animated {
+        width: 92%;
+    }
+}

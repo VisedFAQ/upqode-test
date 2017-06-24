@@ -1,0 +1,40 @@
+footer.footer#contact
+    h1.footer__heading.heading Get in <span class="footer__heading_highlited">touch</span>
+    p.footer__subheading Quisque fermentum, nisl mattis volutpat rhoncus, tellus est congue nibh, ut euismod quam nisi quis felis.<br> Nullam at scelerisque tellus mattis volutpat rhoncus,
+    .contact
+        .contact__map
+            <iframe width="100%" height="635" frameborder="0" style="border:0" src="https://www.google.com/maps/embed/v1/view?zoom=16&center=49.8397%2C24.0297&key=AIzaSyAKCvp_G5aakHMxvHsV05Y00ExmzGZv1AM" allowfullscreen></iframe>
+        .contact-block
+            .contact-form
+                form
+                    input.contact-form__textinput(type="text" name="name" placeholder="Full Name" required)
+                    .contact-form__dropdown
+                        span Email Address 
+                        ul.dropdown
+                            li
+                                a(href="#") somename@mail.com
+                            li
+                                a(href="#") name@mail.com
+                            li
+                                a(href="#") yourname@mail.com
+                    textarea.contact-form__message(name="message" required placeholder="Message")
+                    .contact-form__checkbox
+                        input(type="checkbox" name="company-like" id="company-like" class="css-checkbox")
+                        label(for="company-like" class="css-label") I like your company
+                    button.contact-form__submit(type="submit") Send
+            .contact-info
+                p 69/A, Some Street Name<br>Your City, code 01234<br>Country Name
+                p +880 123 456 78 98<br>+860 987 648 74 95
+                p company@mail.com<br>sales@mail.com
+        .footer-bottom
+            .footer-bottom__copyright
+                span Copyright © Company. All Rights Reserved  2016
+            .footer-bottom__social
+                a.footer-bottom__social_facebook(href="#")
+                    <i class="fa fa-facebook" aria-hidden="true"></i>
+                a.footer-bottom__social_gplus(href="#")
+                    <i class="fa fa-google-plus" aria-hidden="true"></i>
+                a.footer-bottom__social_twitter(href="#")
+                    <i class="fa fa-twitter" aria-hidden="true"></i>
+                a.footer-bottom__social_dribbble(href="#")
+                    <i class="fa fa-dribbble" aria-hidden="true"></i>
